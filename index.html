@@ -1,0 +1,313 @@
+  <!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Way-From-OFPPT – Plateforme des Stagiaires</title>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/a2d9d5f54c.js"></script>
+<style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Quicksand', sans-serif;
+      background: #f4f8fb;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #1976d2, #00bcd4);
+      padding: 80px 20px;
+      color: white;
+      text-align: center;
+      background-image: url('https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&auto=format&fit=crop&w=1400&q=80');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+
+    header::after {
+      content: "";
+      background-color: rgba(0, 0, 0, 0.5);
+      position: absolute;
+      inset: 0;
+    }
+
+    header h1, header p {
+      position: relative;
+      z-index: 1;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      background: #fff;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      display: flex;
+      justify-content: center;
+      padding: 15px 0;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #1976d2;
+      font-weight: bold;
+      margin: 0 15px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #0d47a1;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    section h2 {
+      text-align: center;
+      color: #1976d2;
+      margin-bottom: 30px;
+      font-size: 2em;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card .content {
+      padding: 20px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .card .content h3 {
+      color: #1976d2;
+      margin-bottom: 10px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .tips ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .tips li {
+      background: #e3f2fd;
+      padding: 12px 20px;
+      border-left: 5px solid #1976d2;
+      margin-bottom: 10px;
+      border-radius: 8px;
+    }
+
+    .Parcours img {
+      width: 100%;
+      border-radius: 12px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .links ul {
+      list-style: none;
+      padding-left: 0;
+      text-align: center;
+    }
+
+    .links li {
+      margin: 10px 0;
+    }
+
+    .links a {
+      color: #1976d2;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .links a:hover {
+      color: #0d47a1;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #1976d2;
+      color: white;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+<header>
+<h1>Way-From-OFPPT</h1>
+<p>Plateforme Intelligente pour les Stagiaires cree par The invincible </p>
+</header>
+<nav>
+<a href="#filieres">Filières</a>
+<a href="#conseils">Conseils</a>
+<a href="#Parcours">Parcours</a>
+<a href="#liens">Liens</a>
+</nav>
+<section id="filieres">
+<h2>Filières Populaires</h2>
+<div class="grid">
+<div class="card">
+<a href="https://ofppt.info/developpement-digital/#google_vignette" target="_blank">
+<img src="https://i0.wp.com/algorite.ma/wp-content/uploads/2021/07/rear-view-programmer-working-all-night-long-e1626264270577.jpg?fit=1200%2C801&amp;ssl=1"/>
+<div class="content">
+<h3>Infrastructure digitale</h3>
+</div></a>
+<p>Technicien Spécialisé : Infrastructure Digitale</p>
+</div>
+
+<div class="card">
+<a href="https://ofppt.info/developpement-digital/" target="_blank">
+<img src="https://www.freelance-informatique.fr/images/actualites/developpement-web-prestataires-methodes-outils.jpg"/>
+<div class="content">
+<h3>Développement digitale </h3>
+</div></a>
+<p>Technicien Spécialisé : Développement digitale </p>
+</div>
+
+<div class="card">
+<a href="https://ofppt.info/gestion-des-entreprises/" target="_blank">
+<img src="https://media.licdn.com/dms/image/v2/D4D12AQGoFxvyIcLmuQ/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1729778241901?e=2147483647&amp;v=beta&amp;t=dM5sf6lhbiCLo3pch-dhACANV9a9lmNn9XvKAW1LLVE"/>
+<div class="content">
+<h3>Gestion des entreprises</h3>
+</div></a>
+<p>Technicien Spécialisé : Gestion des entreprises</p>
+</div>
+
+<div class="card">
+<a href="https://ofppt.info/technicien-assistant-administratif/#google_vignette" target="_blank">
+<img src="https://www.fatex.fr/wp-content/uploads/2023/01/img-assistant-administratif-comprendre-son-role-strategique-au-sein-de-l-entreprise.jpg"/>
+<div class="content">
+<h3>Assistant Administratif</h3>
+</div></a>
+<p>Technicien : Assistant Administratif</p>
+</div>
+
+<div class="card">
+<a href="https://ofppt.info/techniques-habillement-industrialisation-2/#google_vignette" target="_blank">
+<img src="https://www.cours-gratuit.com/images/121/12990/id-12990-03.jpg"/>
+<div class="content">
+<h3>Technique Habillement industriallisation</h3>
+</div></a>
+<p>Technicien Spécialisé : Technique Habillement industriallisation</p>
+</div>
+
+<div class="card">
+<a href="http://colasapoil.free.fr/HEI/HEI5%20TC/Maintenance/h5_tc_maintenance_coursv2_coursv2_1783.pdf" target="_blank">
+<img src="https://visualmexico.com.mx/wp-content/uploads/2019/11/worker-adjusting-machinery-with-large-wrench-PP5ENV6-1-1024x683.jpg"/>
+<div class="content">
+<h3>Maintenance de Matériel de Confection</h3>
+</div></a>
+<p>Technicien Spécialisé : Maintenance de Matériel de Confection</p>
+</div>
+
+<div class="card">
+<a href="https://ofppt.net/category/technicien/techniques-habillement-production/"_blank">
+<img src="https://www.modeintextile.fr/wp-content/uploads/2016/05/ERGO.jpg"/>
+<div class="content">
+<h3>Habillement</h3>
+</div></a>
+<p>Technicien : Habillement </p>
+</div>
+
+<div class="card">
+<a href="https://ofppt.info/tri-techniques-des-reseaux-informatiques-nouveau-programme/module-06-programmation-structuree/" target="_blank">
+<img src="https://4kwallpapers.com/images/wallpapers/python-programming-3840x2160-16102.jpg"/>
+<div class="content">
+<h3>Programmation Structuree Python </h3>
+</div></a>
+<p>Technicien Spécialisé : 
+Infrastructure digitale option système et réseaux 
+</p>
+</div>
+
+<div class="card">
+<a href="https://ofppt.info/appliquer-les-methodologies-des-tests-dintrusions/">
+<img src="https://mssolutions.ca/wp-content/uploads/2023/04/Test-dintrusion-ou-audit-de-cybersecurite-lequel-convient-a-qui-1024x683.png"/>
+<div class="content">
+<h3>Testeur intrusion cybernétique</h3>
+</div></a>
+<p>Technicien Spécialisé : Infrastructure digitale option cyber sécurité</p>
+</div>
+
+</div>
+</section>
+<section class="tips" id="conseils">
+<h2>Conseils pour Réussir</h2>
+<ul>
+<li><i class="fas fa-check-circle"></i> Organise ton emploi du temps.</li>
+<li><i class="fas fa-check-circle"></i> Participe activement aux ateliers pratiques.</li>
+<li><i class="fas fa-check-circle"></i> Revois les cours chaque semaine.</li>
+<li><i class="fas fa-check-circle"></i> Travaille avec tes camarades en groupe.</li>
+</ul>
+
+  <section id="Parcours" class="Parcours">
+    <h2>Parcours</h2>
+   <div class="grid">
+  <a href="https://www.w3schools.com/" target="_blank">
+    <img src="https://images.pexels.com/photos/415071/pexels-photo-415071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Cours" />
+    <p style="text-align:center;">Cours</p>
+  </a>
+  
+  <a href="https://ijob.ma/category/stage/" target="_blank">
+    <img src="https://images.pexels.com/photos/4175026/pexels-photo-4175026.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Stages" />
+    <p style="text-align:center;">Stages</p>
+  </a>
+  
+  <a href="https://pll.harvard.edu/catalog/free" target="_blank">
+    <img src="https://images.pexels.com/photos/8112198/pexels-photo-8112198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Certifiés" />
+    <p style="text-align:center;">Certifiés</p>
+  </a>
+</div>
+  </section>
+<section class="links" id="liens">
+<h2>Liens Utiles</h2>
+<ul>
+<li><a href="https://www.ofppt.ma" target="_blank"><i class="fas fa-globe"></i> Site OFPPT</a></li>
+<li><a href="https://www.facebook.com/groups/269575441178486/?ref=share&mibextid=NSMWBT"><i class="fas fa-book-open"></i>Facebook ISTAG BAB TIZIMI </a></li>
+<li><a href="https://www.google.com/maps/place/ISTA+%D8%A7%D9%84%D8%AA%D9%83%D9%88%D9%8A%D9%86+%D8%A7%D9%84%D9%85%D9%87%D9%86%D9%8A+%D8%A7%D9%8A%D8%B3%D8%AA%D9%8A%D8%A7+%D8%A8%D8%A7%D8%A8+%D8%AA%D9%8A%D8%B2%D9%8A%D9%85%D9%8A%E2%80%AD/@33.8995206,-5.5653021,17.75z/data=!4m6!3m5!1s0xda05b2b7ca1f5a3:0x8ead1a31a5875504!8m2!3d33.8996217!4d-5.5636058!16s%2Fg%2F11bvt5vqrr?hl=fr-MA&entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><i class="fas fa-folder"></i> Localisation ISTAG BAB TIZIMI</a></li>
+</ul>
+</section>
+<footer>
+    © 2025 Way From OFPPT – Plateforme des Stagiaires | Tous droits réservés
+  </footer>
+</body>
+</html>
